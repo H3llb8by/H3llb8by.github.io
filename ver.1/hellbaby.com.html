@@ -1,0 +1,136 @@
+<html>
+<head>
+	<title>the world of hell baby</title>
+	<script>
+		function showPage(pageId) {
+			// hide all content sections
+			var sections = document.getElementsByClassName("page");
+			for (var i = 0; i < sections.length; i++) {
+				sections[i].style.display = "none";
+			}
+			// show the selected one
+			document.getElementById(pageId).style.display = "block";
+		}
+		// start on home
+		window.onload = function() {
+			showPage("home");
+		}
+	</script>
+</head>
+<body>
+	<table width="100%">
+		<tr>
+			<td width="200" valign="top">
+				<ul>
+					<li><a href="#" onclick="showPage('home'); return false;">home</a></li>
+					<li><a href="#" onclick="showPage('craft-kit'); return false;">craft kit</a></li>
+					<li><a href="#" onclick="showPage('costumes'); return false;">costumes</a></li>
+					<li><a href="#" onclick="showPage('concept-art'); return false;">concept art</a></li>
+					<li><a href="#" onclick="showPage('illustrations'); return false;">illustrations</a></li>
+					<li><a href="#" onclick="showPage('oil-paintings'); return false;">oil paintings</a></li>
+				</ul>
+			</td>
+			<td valign="top">
+
+				<!-- HOME PAGE -->
+				<div id="home" class="page">
+					<center>
+						<h1>the world of hell baby</h1>
+					</center>
+				</div>
+
+				<!-- CRAFT KIT PAGE -->
+				<div id="craft-kit" class="page" style="display:none;">
+					<h1>craft kit</h1>
+					<img src="image1.jpg" alt="image 1">
+					<img src="image2.jpg" alt="image 2">
+					<img src="image3.jpg" alt="image 3">
+					<ul><li>list content 1</li></ul>
+					<ul><li>list content 2</li></ul>
+					<ul><li>list content 3</li></ul>
+					<ul><li>list content 4</li></ul>
+					<ul><li>list content 5</li></ul>
+					<ul><li>list content 6</li></ul>
+					<ul><li>list content 7</li></ul>
+					<ul><li>list content 8</li></ul>
+					<ul><li>list content 9</li></ul>
+					<ul><li>list content 10</li></ul>
+				</div>
+
+				<!-- COSTUMES PAGE -->
+				<div id="costumes" class="page" style="display:none;">
+					<h1>costumes</h1>
+					<img src="image1.jpg" alt="image 1">
+					<img src="image2.jpg" alt="image 2">
+					<img src="image3.jpg" alt="image 3">
+					<ul><li>list content 1</li></ul>
+					<ul><li>list content 2</li></ul>
+					<ul><li>list content 3</li></ul>
+					<ul><li>list content 4</li></ul>
+					<ul><li>list content 5</li></ul>
+					<ul><li>list content 6</li></ul>
+					<ul><li>list content 7</li></ul>
+					<ul><li>list content 8</li></ul>
+					<ul><li>list content 9</li></ul>
+					<ul><li>list content 10</li></ul>
+				</div>
+
+				<!-- CONCEPT ART PAGE -->
+				<div id="concept-art" class="page" style="display:none;">
+					<h1>concept art</h1>
+					<img src="image1.jpg" alt="image 1">
+					<img src="image2.jpg" alt="image 2">
+					<img src="image3.jpg" alt="image 3">
+					<ul><li>list content 1</li></ul>
+					<ul><li>list content 2</li></ul>
+					<ul><li>list content 3</li></ul>
+					<ul><li>list content 4</li></ul>
+					<ul><li>list content 5</li></ul>
+					<ul><li>list content 6</li></ul>
+					<ul><li>list content 7</li></ul>
+					<ul><li>list content 8</li></ul>
+					<ul><li>list content 9</li></ul>
+					<ul><li>list content 10</li></ul>
+				</div>
+
+				<!-- ILLUSTRATIONS PAGE -->
+				<div id="illustrations" class="page" style="display:none;">
+					<h1>illustrations</h1>
+					<img src="image1.jpg" alt="image 1">
+					<img src="image2.jpg" alt="image 2">
+					<img src="image3.jpg" alt="image 3">
+					<ul><li>list content 1</li></ul>
+					<ul><li>list content 2</li></ul>
+					<ul><li>list content 3</li></ul>
+					<ul><li>list content 4</li></ul>
+					<ul><li>list content 5</li></ul>
+					<ul><li>list content 6</li></ul>
+					<ul><li>list content 7</li></ul>
+					<ul><li>list content 8</li></ul>
+					<ul><li>list content 9</li></ul>
+					<ul><li>list content 10</li></ul>
+				</div>
+
+				<!-- OIL PAINTINGS PAGE -->
+				<div id="oil-paintings" class="page" style="display:none;">
+					<h1>oil paintings</h1>
+					<img src="image1.jpg" alt="image 1">
+					<img src="image2.jpg" alt="image 2">
+					<img src="image3.jpg" alt="image 3">
+					<ul><li>list content 1</li></ul>
+					<ul><li>list content 2</li></ul>
+					<ul><li>list content 3</li></ul>
+					<ul><li>list content 4</li></ul>
+					<ul><li>list content 5</li></ul>
+					<ul><li>list content 6</li></ul>
+					<ul><li>list content 7</li></ul>
+					<ul><li>list content 8</li></ul>
+					<ul><li>list content 9</li></ul>
+					<ul><li>list content 10</li></ul>
+				</div>
+
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
